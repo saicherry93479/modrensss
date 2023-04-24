@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/modrenss/static/css/main.dd2d4c17.css",
+    "main.js": "/modrenss/static/js/main.c7aecdb9.js",
+    "static/js/787.ec704a7a.chunk.js": "/modrenss/static/js/787.ec704a7a.chunk.js",
+    "static/media/KurtiRm.png": "/modrenss/static/media/KurtiRm.ee0dc8e9bd88605bc9ff.png",
+    "static/media/ETHNICBLOUSE.png": "/modrenss/static/media/ETHNICBLOUSE.a3e7b4e07ea4bab39dce.png",
+    "static/media/ETHNICKURTI.png": "/modrenss/static/media/ETHNICKURTI.c937979fd21d737a0458.png",
+    "static/media/HeroImageOne.webp": "/modrenss/static/media/HeroImageOne.df9ac47708262834fc50.webp",
+    "static/media/SalwarKameezRm.png": "/modrenss/static/media/SalwarKameezRm.bf8f773e9a49d206f49b.png",
+    "static/media/BlouseRm.png": "/modrenss/static/media/BlouseRm.ec07e248c5afed0a3765.png",
+    "static/media/SectionThreeImage.webp": "/modrenss/static/media/SectionThreeImage.9ede2e39f49cf1d05b31.webp",
+    "static/media/SectionFourOne.webp": "/modrenss/static/media/SectionFourOne.611a2afa811623f7c0f6.webp",
+    "static/media/SectionFourTwo.webp": "/modrenss/static/media/SectionFourTwo.ad1e3694f79f6e1fbd99.webp",
+    "static/media/SectionFourThree.webp": "/modrenss/static/media/SectionFourThree.ef7089c4196de13fc06a.webp",
+    "index.html": "/modrenss/index.html",
+    "main.dd2d4c17.css.map": "/modrenss/static/css/main.dd2d4c17.css.map",
+    "main.c7aecdb9.js.map": "/modrenss/static/js/main.c7aecdb9.js.map",
+    "787.ec704a7a.chunk.js.map": "/modrenss/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd2d4c17.css",
+    "static/js/main.c7aecdb9.js"
+  ]
+}
