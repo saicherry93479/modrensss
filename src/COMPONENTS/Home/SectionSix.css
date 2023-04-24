@@ -1,0 +1,31 @@
+.sectionSix{
+    display: flex;
+    background-color: #F9F8F3;
+    padding: 50px;
+    gap:80px;
+    border-top: 0.5px solid rgb(203, 203, 203);
+}
+.sectionSix h1{
+    font-size: 20px;
+    color: var(--header-color-desktop--);
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+.sectionSix p{
+    font-size: 14px;
+    color: #424242;
+    margin-top: 5px;
+}
+.sixLogo{
+    margin-bottom: 30px;
+}
+
+@media  screen and (max-width:500px) {
+    .sectionSix{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+}

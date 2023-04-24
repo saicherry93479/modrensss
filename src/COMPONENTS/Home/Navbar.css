@@ -1,0 +1,150 @@
+.navbar{
+    padding: 15px 50px;
+    position: sticky;
+    top:0px;
+    background-color: white;
+    border-bottom: 0.5px solid rgb(199, 197, 197);
+    box-shadow:  0 1px 2px 0 rgba(0,0,0,.05);
+    z-index: 100;
+}
+.navbarTop{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* background-color: red; */
+}
+.menu{
+    display: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.logo{
+    cursor: pointer;
+}
+.navItems{
+    display: flex;
+    gap: 40px;
+    margin-left: 40px;
+    
+}
+.navItems>p{
+    cursor: pointer;
+    line-height: 1.24;
+    font-size: var(--nav-para-size-desktop--);
+    color: var(--nav-para-color-desktop--);
+    line-height: 24px;
+   
+}
+.navAuth{
+    display: flex;
+    margin-left: auto;
+    gap: 50px;
+    
+}
+.navAuth>div{
+    cursor: pointer;
+}
+
+.mobileMenu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(189, 186, 186, 0.4);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.actualMobileMenu{
+    /* position: relative; */
+    width: 80vw;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: white;
+    animation-name: colorchange;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    padding: 10px;
+    transition: all 1s ease;
+    
+
+}
+.actualMobileMenu>div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.actualMobileMenu>div:nth-child(2){
+    margin-top: 10px;
+}
+.navLink{
+    /* background-color: red; */
+    padding: 10px;
+
+}
+.cancelButton{
+    /* background-color: rgb(205, 27, 27); */
+    border-radius: 50%;
+    border: 1px solid var(--primary-color-desktop--);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+@keyframes colorchange{
+    0% {
+        transform: translateX(-80vw);
+    }
+   
+    100%{   
+        transform: translateX(0);
+    }
+}
+
+.menuCancelClass{
+    animation: animationcancel 1s ease 1;
+}
+@keyframes animationcancel {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-80vw);
+    }
+    
+}
+
+@media screen and (max-width:950px) {
+    .navItems{
+        display: none;
+    }
+    .navbar{
+        padding:10px 20px;
+    }
+    .menu{
+        display: block;
+
+    }
+
+    
+}
+
+@media screen and (max-width:500px) {
+    .navbarTop{
+        gap: 5px;
+    }
+    .navAuth{
+        gap: 10px;
+
+    }
+  
+    
+}

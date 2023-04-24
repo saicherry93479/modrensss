@@ -1,0 +1,12 @@
+.accountSvg{
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (max-width:500px){
+    .accountSvg{
+        height: 24px;
+        width: 24px;
+    }
+    
+}

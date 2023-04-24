@@ -1,0 +1,15 @@
+.cartSvg{
+    width: 29px;
+    height: 29px;
+
+}
+
+@media screen and (max-width:500px) {
+    .cartSvg{
+        height: 24px;
+        width: 24px;
+
+    }
+
+
+}

@@ -1,0 +1,145 @@
+
+.productDiv{
+    padding: 50px;
+    display: flex;
+    gap: 40px;
+}
+.productDivImages{
+    display: flex;
+    gap: 20px;
+}
+
+.customProductImage{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.customProductImage>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    
+
+}
+.customProductImage:hover{
+    border: 1px solid var(--primary-color-desktop--);
+}
+.productImage{
+    height: 500px;
+    width: 400px;
+}
+.productImage>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.productImageDetails>.name{
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.productImageDetails>.price{
+    font-size: 24px;
+    color: var(--primary-color-desktop--);
+    margin-bottom: 15px;
+}
+.productImageDetails>.desc{
+    font-size: 16px;
+    letter-spacing: 1.1px;
+    line-height: 24px;
+    color: #616161;
+    margin-bottom: 15px;
+
+
+}
+.productImageDetails>.orderButton{
+    padding: 12px 20px;
+    border: 1px solid var(--primary-color-desktop--);
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+    
+}
+.orderButton>p{
+    color: var(--primary-color-desktop--);
+    letter-spacing: 1.2px;
+
+}
+.productImageDetails>.orderButton:hover{
+    background-color: var(--primary-color-desktop--);
+    transition: all 0.4s ease;
+}
+.productImageDetails>.orderButton:hover>p{
+    color: white;
+    transition: all 0.4s ease;
+}
+.descone{
+    color: #616161;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+@media  screen and (max-width:500px) {
+    .productDiv{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .productDivImages{
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .productImages{
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: RED; */
+        gap: 2%;
+    }
+    .customProductImage{
+        padding: 1px;
+        width: 23%;
+    }
+    .customProductImage>img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .productImage{
+        width: 100%;
+        height: 300px;
+        
+
+    }
+    .productImage>img{
+        object-fit: contain;
+    }
+    .productImageDetails>.name{
+        font-size: 20px;
+    }
+    .productImageDetails>.price{
+        font-size: 18px;
+    }
+    .productImageDetails>.desc{
+        font-size: 14px;
+        line-height: normal;
+
+
+    }
+    .productImageDetails>.orderButton{
+        width: 100%;
+        padding: 6px 20px;
+    }
+    
+    
+}

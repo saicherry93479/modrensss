@@ -1,0 +1,10 @@
+.sectionFour{
+    padding: 50px;
+}
+
+@media screen and (max-width:500px) {
+    .sectionFour{
+        padding:50px 20px;
+    }
+    
+}

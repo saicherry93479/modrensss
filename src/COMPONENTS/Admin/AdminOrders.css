@@ -1,0 +1,68 @@
+.adminOrders{
+    padding: 50px;
+}
+.orderData>.orderDetails>.orderEdit{
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    
+}
+.orderDetails>.date{
+    font-size: 14px;
+    color: #616161;
+    margin: 5px 0px;
+}
+.orderEdit>.status{
+    font-weight: 14px;
+    color: #616161;
+}
+.orderEdit>div{
+    cursor: pointer;
+}
+.orderPh{
+    display: flex;
+    /* margin: 5px 0px; */
+    margin-bottom: 5px;
+    gap: 20px;
+    align-items: baseline;
+    cursor: pointer;
+
+}
+.orderPh>p{
+    font-size: 14px;
+    color: #616161;
+   
+}
+.orderPh>div{
+    width: 20px;
+    height: 20px;
+}
+
+@media  screen and (max-width:500px) {
+    .adminOrders{
+        padding :20px;
+    }
+    .orderData>.orderDetails>.orderEdit{
+        gap: 10px;
+    }
+    .orderEdit>.status{
+        font-size: 12px;
+    }
+    .orderPh{
+        /* margin: 5px 0px; */
+        margin-bottom: 3px;
+        gap: 10px;
+    }
+    .orderPh>p{
+        font-size: 12px;
+    }
+    .orderPh>div{
+        width: 16px;
+        height: 16px;
+        
+    }
+    .orderDetails>.date{
+        font-size: 12px;
+        margin: 3px 0px;
+    }
+}

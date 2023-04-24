@@ -1,0 +1,25 @@
+.sectionFive{
+    padding: 0px 170px;
+}
+@media screen and (max-width:950px){
+    .sectionFive{
+        padding: 0px 130px;
+    }   
+}
+
+@media screen and (max-width:850px){
+    .sectionFive{
+        padding: 0px 100px;
+    }   
+}
+@media screen and (max-width:700px){
+    .sectionFive{
+        padding: 0px 70px;
+    }   
+}
+@media screen and (max-width:500px) {
+    .sectionFive{
+        padding: 20px;
+    }
+    
+}

@@ -1,0 +1,76 @@
+.login{
+    height: 80vh;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F8F3;
+
+}
+.loginPage{
+  width: 400px;
+  background-color: white;
+  box-shadow:  1px 1px 4px 1px #888888;
+  border-radius: 10px;
+
+  /* background-color: red; */
+  padding: 20px;
+}
+.loginPage>p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.loginInput{
+    outline: none;
+    padding:8px 20px;
+    width: 100%;
+
+    border-radius: 20px;
+    border: 1px solid rgb(90, 87, 87);
+}
+.loginButton{
+    display: flex;
+    padding: 8px 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #616161;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.loginButton>p{
+    color: white;
+    font-size: 14px;
+
+}
+
+.loginPage >.otpInput{
+    outline: none;
+    padding:8px 20px;
+    width: 100%;
+
+    /* border-radius: 20px; */
+    border: none;
+    border-bottom:2px solid rgb(106, 106, 106) ;
+    
+}
+.otpPara{
+    font-size: 12px;
+    font-weight: 400;
+}
+.editDivAuth{
+    display: flex;
+    gap: 5px;
+}
+@media screen and (max-width:500px) {
+    .login{
+        background-color: white;
+    }
+    .loginPage{
+        box-shadow: none;
+    }
+    
+}

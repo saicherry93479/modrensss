@@ -1,0 +1,137 @@
+.productsHome>.other{
+    padding: 50px;
+}
+
+.categoryTopCard{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding:0px 150px;
+    margin: 0px 50px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+    /* width: 100vw; */
+    height: 350px;
+    background:linear-gradient(90deg,rgba(76,14,123,1) 0%,rgba(122,85,173,1) 35%,rgba(239,245,247,1) 100%) ;
+}
+.categoryTopCard>.firstDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.categoryTopCard>.firstDiv>h1{
+    font-size: 48px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+
+.categoryTopCard>.firstDiv>h2{
+    font-size: 24px;
+    color: #DADADA;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.categoryTopCard>.firstDiv>p{
+    font-size: 16px;
+    color: #DADADA;
+    font-weight: 400;
+}
+.categoryTopCard>img{
+    height: 100%;
+}
+.productsMain{
+    background-color: #F9F8F3;
+    padding: 50px;
+}
+.productsMainHeader{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.productsMain>div{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.productsHomeProduct{
+    cursor: pointer;
+    /* display: flex; */
+    flex-basis: 20%;
+    height: 450px;
+    
+    
+    /* background-color: red; */
+}
+.productsHomeProduct>div{
+    background-color: white;
+    width: 100%;
+    height: 85%;
+}
+.productsHomeProduct>div>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.productsHomeProduct>p{
+    text-align: center;
+   
+}
+.productsHomeProduct>.name{
+    margin: 5px 0px;
+}
+.productsHomeProduct>.price{
+    font-size: 14px;
+    font-weight: bold;   
+}
+
+
+@media screen and (max-width:500px) {
+    .categoryTopCard{
+        /* padding: 20px; */
+        height: 150px;
+        margin: 0px 20px;
+        margin-top: 20px;
+        padding: 0px;
+        justify-content: flex-start;
+        gap: 0px;
+    }
+    .categoryTopCard>.firstDiv{
+        padding:15px;
+    }
+    .productsHome>.other{
+        padding: 20px;
+    }
+    .categoryTopCard>.firstDiv>h1{
+        font-size: 16px;
+    }
+    .categoryTopCard>.firstDiv>h2{
+        font-size: 12px;
+    }
+    .categoryTopCard>.firstDiv>p{
+        font-size: 10px;
+    }
+    .categoryTopCard>img{
+        object-fit: cover;
+    }
+    .productsMain{
+        padding: 20px;
+    }
+   
+    .productsHomeProduct{
+        flex-basis: 47%;
+        height: 350px;
+        
+
+    }
+    .productsMainHeader{
+        font-size: 20px;
+    }
+    /* .productsHomeProduct>div{
+        height: ;
+
+    } */
+}
